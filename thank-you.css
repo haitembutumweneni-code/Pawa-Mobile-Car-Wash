@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #f4f4f4 0%, #e0e0e0 100%);
+}
+.container {
+    background: #fff;
+    max-width: 600px;
+    width: 90%;
+    margin: 2rem;
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    animation: fadeIn 0.8s ease-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0056b3;
+    margin-bottom: 2rem;
+    display: inline-block;
+    text-decoration: none;
+}
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+}
+p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+.success-icon {
+    width: 80px;
+    height: 80px;
+    background: #d4edda;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem auto;
+}
+.success-icon svg {
+    width: 40px;
+    height: 40px;
+    stroke: #28a745;
+    stroke-width: 3;
+}
+.btn {
+    display: inline-block;
+    background: #0056b3;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,86,179,0.2);
+}
+.btn:hover {
+    background: #004494;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,86,179,0.3);
+}
+.social-links {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+}
+.social-links p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.social-icons a {
+    color: #0056b3;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+    transform: translateY(-3px);
+    color: #004494;
+}
